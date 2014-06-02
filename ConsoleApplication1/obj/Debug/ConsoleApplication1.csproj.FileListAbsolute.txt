@@ -1,0 +1,9 @@
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\ConsoleApplication1\bin\Debug\StitchImages.dll
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\ConsoleApplication1\bin\Debug\StitchImages.pdb
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\ConsoleApplication1\bin\Debug\StitchImages.xml

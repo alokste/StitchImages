@@ -1,0 +1,5 @@
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\StitchImages\bin\Release\StitchImages.dll
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\StitchImages\bin\Release\StitchImages.pdb
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\StitchImages\obj\Release\StitchImages.dll
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\StitchImages\obj\Release\StitchImages.pdb
+C:\Users\v-alok\Documents\Visual Studio 2013\Projects\StitchImages\StitchImages\bin\Release\StitchImages.XML
