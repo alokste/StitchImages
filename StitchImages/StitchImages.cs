@@ -44,71 +44,28 @@ namespace StitchImages
        /// <param name="outPutFile">The name of the final joined image file</param>
        /// <param name="Orientation">Vertically,Horizontally</param>
         public void JoinImages(string outPutFile ,string Orientation)
-        {           
+        {
+           Bitmap fullImage = new Bitmap(1, 1);
            switch(Orientation)
             {
+               
                 case "Horizontally":
-                    using (Bitmap fullImage = new Bitmap(FullWidth, MaxHeight))
-                    {
-                        using (Graphics fullPage = Graphics.FromImage(fullImage))
-                        {
-                            int yPosition = 0;
-                            int xPosition = 0;
-                            fullPage.DrawImage(Images[0], xPosition, yPosition);
-                            for (int i = 1; i < Images.Length; i++)
-                            {
-                                xPosition = xPosition + Images[i - 1].Width;
-                                fullPage.DrawImage(Images[i], xPosition, yPosition);
-
-                            }
-                            fullImage.Save(outPutFile, ImageFormat.Jpeg);
-                        }
-                    }
-                  
+                    fullImage = JoinImages("Horizontally");
+                    fullImage.Save(outPutFile, ImageFormat.Jpeg);        
                 break;
 
                 case "Vertically" :
-                using (Bitmap fullImage = new Bitmap(MaxWidth, FullHeight))
-                      {
-                        using (Graphics fullPage = Graphics.FromImage(fullImage))
-                        {
-                            int yPosition = 0;
-                            int xPosition = 0;
-                            fullPage.DrawImage(Images[0], xPosition, yPosition);
-                            for (int i = 1; i < Images.Length; i++)
-                            {
-                                yPosition = yPosition + Images[i - 1].Height;
-                                fullPage.DrawImage(Images[i], xPosition, yPosition);
-
-                            }
-                            fullImage.Save(outPutFile, ImageFormat.Jpeg);
-                        }
-                    }           
+                    fullImage = JoinImages("Vertically");
+                    fullImage.Save(outPutFile, ImageFormat.Jpeg);             
                
                  break;
 
                 default:
-                 using (Bitmap fullImage = new Bitmap(MaxWidth, FullHeight))
-                 {
-                     using (Graphics fullPage = Graphics.FromImage(fullImage))
-                     {
-                         int yPosition = 0;
-                         int xPosition = 0;
-                         fullPage.DrawImage(Images[0], xPosition, yPosition);
-                         for (int i = 1; i < Images.Length; i++)
-                         {
-                             yPosition = yPosition + Images[i - 1].Height;
-                             fullPage.DrawImage(Images[i], xPosition, yPosition);
-
-                         }
-                         fullImage.Save(outPutFile, ImageFormat.Jpeg);
-                     }
-                 } 
+                    fullImage = JoinImages("Vertically");
+                    fullImage.Save(outPutFile, ImageFormat.Jpeg);                               
                 break;
-            }
-           
-
-            
+            }         
+                        
         }
 
         /// <summary>

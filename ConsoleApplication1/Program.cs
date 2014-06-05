@@ -20,9 +20,11 @@ namespace ConsoleApplication1
             StitchImages.StitchImages SIV = new StitchImages.StitchImages(ImagePaths);
             StitchImages.StitchImages SIVP = new StitchImages.StitchImages(ImagePaths);
             StitchImages.StitchImages SIH = new StitchImages.StitchImages(ImagePaths);
+            StitchImages.StitchImages SIHP = new StitchImages.StitchImages(ImagePaths);
             SIV.JoinImages("Vertically").Save(@"D:\bTestV.jpeg");
             SIH.JoinImages("Horizontally").Save(@"D:\bTestH.jpeg");
             SIVP.JoinImages(@"D:\Testv.jpeg", "Vertically");
+            SIHP.JoinImages(@"D:\Testh.jpeg", "Horizontally");
             
         }
     }

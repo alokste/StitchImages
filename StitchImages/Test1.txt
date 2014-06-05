@@ -1,2 +1,0 @@
-This is a text1 file
-This is a test1 file modified

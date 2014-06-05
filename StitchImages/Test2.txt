@@ -1,2 +1,0 @@
-This is a text2 file edited on server
-This is a test2 file modified
